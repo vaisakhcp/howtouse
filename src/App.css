@@ -1,0 +1,151 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.using-the-mondaycom {
+  color: #000;
+  font-family: Canva Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 133.333% */
+}
+
+.body-container {
+  color: #000;
+  font-family: Canva Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.how-to-access {
+  color: #000;
+  /* Title/Medium */
+  font-family: Canva Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+
+.select-your-workspace-non-numbered {
+  list-style-type: disc; /* Apply numbering style to nested ol elements */
+  padding: 0px 0px 0px 0px; /* Add padding to nested ol elements */
+}
+.say-goodbye-to {
+  margin: 0;
+}
+.say-goodbye-to-container {
+  position: relative;
+  font-size: var(--body-large-size);
+  line-height: 26px;
+  display: inline-block;
+  width: 884px;
+}
+.using-the-mondaycom-app-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--title-xlarge-size);
+}
+
+.select-your-workspace {
+  margin-bottom: 0;
+}
+.select-your-workspace-in-the {
+  margin: 0;
+  padding-left: var(--padding-lgi);
+}
+.select-your-workspace-container {
+  position: relative;
+  font-size: var(--font-inherit);
+  line-height: 30px;
+  font-family: "Canva Sans";
+  display: inline-block;
+  padding-left: 18px;
+}
+.how-to-access-tasks-from-monda-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.if-you-need,
+.im-having-trouble {
+  color: #000;
+
+  /* Title/Medium */
+  font-family: Canva Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+.if-you-need {
+  font-size: var(--body-medium-size);
+  line-height: 22px;
+  font-family: "Canva Sans";
+  width: 884px;
+}
+.frame-parent {
+  top: calc(50% - 447px);
+  left: 198px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 56px;
+}
+.help-article {
+  background-color: #fff;
+  width: 100%;
+  height: 996px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--title-medium-size);
+  color: var(--color-black);
+  font-family: "Canva Sans";
+}
